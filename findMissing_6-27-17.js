@@ -14,21 +14,15 @@ const l = console.log;
 
 var findMissing = function (list) {
 
-    let delta;
-    let i=0;
-    
-    while (i <= 1) {
-        if (delta !== undefined) {
-            delta = Math.min (delta, list[i+1] - list[i])
-            break
-        }
-        delta = list[i+1] - list[i];
-        i++;
-    }
+    const delta = Math.min ( (list[1]-list[0]) , (list[2]-list[1]) )
+    let i = 0;
 
-    
+    while (list[i+1] - list[i] === delta) i++
+    return list[i]+delta;
 
 }
 
-l(findMissing([1,3,5,9,11]))    // --> 7
-l(findMissing([3,4,6]))         // --> 5
+l('7 --> ', findMissing([1,3,5,9,11]))
+l('*****************')
+l('5 --> ', findMissing([3,4,6]))
+l('*****************')

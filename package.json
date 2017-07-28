@@ -1,0 +1,23 @@
+{
+  "name": "codewars-excercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "findMissing_6-27-17.js",
+  "dependencies": {
+    "expect.js": "^0.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michals2/codewars-excercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michals2/codewars-excercises/issues"
+  },
+  "homepage": "https://github.com/michals2/codewars-excercises#readme"
+}
